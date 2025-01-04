@@ -111,19 +111,19 @@ body {
 .container {
 }
 
-.hero-container {
+.hero__container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.hero-info {
+.hero__info {
 	max-width: 367px;
 	width: 100%;
 	color: #fff;
 }
 
-.hero-line {
+.hero__line {
 	display: inline-block;
 	width: 80px;
 	height: 3px;
@@ -131,7 +131,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.hero-title {
+.hero__title {
 	margin-top: 0;
 	font-size: 40px;
 	font-weight: 700;
@@ -140,7 +140,7 @@ body {
 	margin-bottom: 24px;
 }
 
-.hero-text {
+.hero__text {
 	letter-spacing: 0.5;
 	margin-bottom: 32px;
 }
@@ -148,7 +148,7 @@ body {
 .btn {
 }
 
-.hero-img img {
+.hero__img img {
 	width: 510px;
 	height: 510px;
 	border-radius: 8px;
